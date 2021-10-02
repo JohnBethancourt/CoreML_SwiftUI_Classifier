@@ -52,7 +52,6 @@ class ObjectClassifierModel: ObservableObject {
         DispatchQueue.main.async {
             var resultString = ""
             for (index, result) in classifications.prefix(5).enumerated() {
-                print(result.confidence)
                 let confidence = String(format: "Confidence %.2f", result.confidence * 100)
                 resultString += "\(index + 1). \(result.identifier) - \(confidence)%\n"
             }
