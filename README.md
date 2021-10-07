@@ -1,6 +1,6 @@
 # CoreML_SwiftUI_Classifier
 
-Select image, get Core ML classifcations.
+Select image, get Core ML classifications.
 One line change if you need to drop a new model in.
 
 Also contains easy ImagePicker sheet modifier. Works like a standard sheet, but returns a UIImage.
